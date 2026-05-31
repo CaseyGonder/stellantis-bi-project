@@ -1,1 +1,21 @@
-"" 
+# Power BI temp files
+*.pbix.bak
+*.lck
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+*.egg-info/
+
+# Data files (keep scripts, exclude generated CSVs from repo)
+data-gen/output/*.csv
+data-gen/output/*.xlsx
+
+# SQL Server
+*.bak
+*.mdf
+*.ldf
+
+# VS Code
+.vscode/settings.json
